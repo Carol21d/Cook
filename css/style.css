@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+
+
+
+/* 1 logo y titulo  */
+/* centra el contenido de la pantalla */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FEF9E1;
+
+
+}
+
+/* centra el logo y el titulo */
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.img-logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: 4rem;
+}
+
+.titulo{
+    font-family: "Julee", "cursive";
+    font-size: 2rem;
+    color:#C14600;
+    text-align: center;
+    margin-top: -15%;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+
