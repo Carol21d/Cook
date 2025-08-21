@@ -115,3 +115,35 @@
     border: 3px solid #C14600;
     filter:drop-shadow(0 0 5px rgba(193, 70, 0, 0.7)); 
 }
+
+
+.footer{
+   display: flex;
+   bottom: 0;
+   left: 0;
+   position: fixed;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   background-color: #E5D0AC;
+   padding: 2rem;
+   border-top: 2px solid black;
+   box-shadow: 0 -2px 5px rgba(0,0,0,0.1); 
+}
+
+.btn-recetas{
+    color: white;
+    background-color: #C14600;
+    border-radius: 12px;
+    padding: 1rem  4rem;
+    font-family: "Julee", "cursive";
+     font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-enlace{
+    background: none;
+}
