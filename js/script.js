@@ -70,13 +70,13 @@ const ingredientes = [
         imagenSrc: 'assets/img/pollo.webp', name: 'Pollo'
     },
     {
-        imagenSrc: 'assets/img/barenjena.webp', name: 'Berenjena'
+        imagenSrc: 'assets/img/berenjena.webp', name: 'Berenjena'
     },
     {
         imagenSrc: 'assets/img/batatas.webp', name: 'Batatas'
     },
     {
-        imagenSrc: 'assets/img/pan(1).webp', name: 'Pan'
+        imagenSrc: 'assets/img/pan.webp', name: 'Pan'
     },
     {
         imagenSrc: 'assets/img/banana.webp', name: 'Banana'
@@ -101,7 +101,7 @@ const ingredientes = [
         imagenSrc: 'assets/img/mango.webp', name: 'Mango'
     },
     {
-        imagenSrc: 'assets/img/naranja(1).webp', name: 'Naranja'
+        imagenSrc: 'assets/img/naranja.webp', name: 'Naranja'
     },
     {
         imagenSrc: 'assets/img/piña.webp', name: 'Piña'
@@ -110,7 +110,7 @@ const ingredientes = [
         imagenSrc: 'assets/img/pera.webp', name: 'Pera'
     },
     {
-        imagenSrc: 'assets/img/limon(1).webp', name: 'Limón'
+        imagenSrc: 'assets/img/limon.webp', name: 'Limón'
     },
 
 
