@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', obtenerRecetas);
  * y muestra los resultados o un mensaje de error.
  */
 async function obtenerRecetas() {
-    const API_KEY = '628a7e04b0a843d782b0766a0bacfb03';
+    
     const urlParams = new URLSearchParams(window.location.search);
     const ingredientesString = urlParams.get('ingredientes');
 
