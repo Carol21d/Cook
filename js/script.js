@@ -1,141 +1,141 @@
-document.addEventListener('DOMContentLoaded', () =>{
+document.addEventListener('DOMContentLoaded', () => {
 
 
-// lista de  ingredientes 
-const ingredientes = [
-    {
-        imagenSrc: 'assets/img/aguacate.webp', name: 'Aguacate'
-    },
-    {
-        imagenSrc: 'assets/img/brocoli.webp', name: 'Brocoli'
-    },
-    {
-        imagenSrc: 'assets/img/carne.webp', name: 'Carne'
-    },
-    {
-        imagenSrc: 'assets/img/cebolla.webp', name: 'Cebolla'
-    },
-    {
-        imagenSrc: 'assets/img/coliflor.webp', name: 'Coliflor'
-    },
-    {
-        imagenSrc: 'assets/img/patatas.webp', name: 'Patatas'
-    },
-    {
-        imagenSrc: 'assets/img/pescado.webp', name: 'Pescado'
-    },
-    {
-        imagenSrc: 'assets/img/pimientos.webp', name: 'Pimientos'
-    },
-    {
-        imagenSrc: 'assets/img/queso.webp', name: 'Queso'
-    },
-    {
-        imagenSrc: 'assets/img/tomate.webp', name: 'Tomate'
-    },
-    {
-        imagenSrc: 'assets/img/huevos.webp', name: 'Huevos'
-    },
-    {
-        imagenSrc: 'assets/img/arroz.webp', name: 'Arroz'
-    },
-    {
-        imagenSrc: 'assets/img/champiñones.webp', name: 'Champiñones'
-    },
-    {
-        imagenSrc: 'assets/img/pasta.webp', name: 'Pasta'
-    },
-    {
-        imagenSrc: 'assets/img/alubias.webp', name: 'Alubias'
-    },
-    {
-        imagenSrc: 'assets/img/harina.webp', name: 'Harina'
-    },
-    {
-        imagenSrc: 'assets/img/ajo.webp', name: 'Ajo'
-    },
-    {
-        imagenSrc: 'assets/img/calabacin.webp', name: 'Calabacin'
-    },
-    {
-        imagenSrc: 'assets/img/zanahoria.webp', name: 'Zanahoria'
-    },
-    {
-        imagenSrc: 'assets/img/guisantes.webp', name: 'Guisantes'
-    },
-    {
-        imagenSrc: 'assets/img/atun.webp', name: 'Atún'
-    },
-    {
-        imagenSrc: 'assets/img/pollo.webp', name: 'Pollo'
-    },
-    {
-        imagenSrc: 'assets/img/berenjena.webp', name: 'Berenjena'
-    },
-    {
-        imagenSrc: 'assets/img/batatas.webp', name: 'Batatas'
-    },
-    {
-        imagenSrc: 'assets/img/pan.webp', name: 'Pan'
-    },
-    {
-        imagenSrc: 'assets/img/banana.webp', name: 'Banana'
-    },
-    {
-        imagenSrc: 'assets/img/fresa.webp', name: 'Fresa'
-    },
-    {
-        imagenSrc: 'assets/img/mantequilla.webp', name: 'Mantequilla'
-    },
-    {
-        imagenSrc: 'assets/img/manzana.webp', name: 'Manzana'
-    },
-    {
-        imagenSrc: 'assets/img/leche.webp', name: 'Leche'
-    },
+    // lista de  ingredientes 
+    const ingredientes = [
+        {
+            imagenSrc: 'assets/img/aguacate.webp', name: 'Aguacate'
+        },
+        {
+            imagenSrc: 'assets/img/brocoli.webp', name: 'Brocoli'
+        },
+        {
+            imagenSrc: 'assets/img/carne.webp', name: 'Carne'
+        },
+        {
+            imagenSrc: 'assets/img/cebolla.webp', name: 'Cebolla'
+        },
+        {
+            imagenSrc: 'assets/img/coliflor.webp', name: 'Coliflor'
+        },
+        {
+            imagenSrc: 'assets/img/patatas.webp', name: 'Patatas'
+        },
+        {
+            imagenSrc: 'assets/img/pescado.webp', name: 'Pescado'
+        },
+        {
+            imagenSrc: 'assets/img/pimientos.webp', name: 'Pimientos'
+        },
+        {
+            imagenSrc: 'assets/img/queso.webp', name: 'Queso'
+        },
+        {
+            imagenSrc: 'assets/img/tomate.webp', name: 'Tomate'
+        },
+        {
+            imagenSrc: 'assets/img/huevos.webp', name: 'Huevos'
+        },
+        {
+            imagenSrc: 'assets/img/arroz.webp', name: 'Arroz'
+        },
+        {
+            imagenSrc: 'assets/img/champiñones.webp', name: 'Champiñones'
+        },
+        {
+            imagenSrc: 'assets/img/pasta.webp', name: 'Pasta'
+        },
+        {
+            imagenSrc: 'assets/img/alubias.webp', name: 'Alubias'
+        },
+        {
+            imagenSrc: 'assets/img/harina.webp', name: 'Harina'
+        },
+        {
+            imagenSrc: 'assets/img/ajo.webp', name: 'Ajo'
+        },
+        {
+            imagenSrc: 'assets/img/calabacin.webp', name: 'Calabacin'
+        },
+        {
+            imagenSrc: 'assets/img/zanahoria.webp', name: 'Zanahoria'
+        },
+        {
+            imagenSrc: 'assets/img/guisantes.webp', name: 'Guisantes'
+        },
+        {
+            imagenSrc: 'assets/img/atun.webp', name: 'Atún'
+        },
+        {
+            imagenSrc: 'assets/img/pollo.webp', name: 'Pollo'
+        },
+        {
+            imagenSrc: 'assets/img/berenjena.webp', name: 'Berenjena'
+        },
+        {
+            imagenSrc: 'assets/img/batatas.webp', name: 'Batatas'
+        },
+        {
+            imagenSrc: 'assets/img/pan.webp', name: 'Pan'
+        },
+        {
+            imagenSrc: 'assets/img/banana.webp', name: 'Banana'
+        },
+        {
+            imagenSrc: 'assets/img/fresa.webp', name: 'Fresa'
+        },
+        {
+            imagenSrc: 'assets/img/mantequilla.webp', name: 'Mantequilla'
+        },
+        {
+            imagenSrc: 'assets/img/manzana.webp', name: 'Manzana'
+        },
+        {
+            imagenSrc: 'assets/img/leche.webp', name: 'Leche'
+        },
 
-    {
-        imagenSrc: 'assets/img/sandia.webp', name: 'Sandia'
-    },
-    {
-        imagenSrc: 'assets/img/mango.webp', name: 'Mango'
-    },
-    {
-        imagenSrc: 'assets/img/naranja.webp', name: 'Naranja'
-    },
-    {
-        imagenSrc: 'assets/img/piña.webp', name: 'Piña'
-    },
-    {
-        imagenSrc: 'assets/img/pera.webp', name: 'Pera'
-    },
-    {
-        imagenSrc: 'assets/img/limon.webp', name: 'Limón'
-    },
+        {
+            imagenSrc: 'assets/img/sandia.webp', name: 'Sandia'
+        },
+        {
+            imagenSrc: 'assets/img/mango.webp', name: 'Mango'
+        },
+        {
+            imagenSrc: 'assets/img/naranja.webp', name: 'Naranja'
+        },
+        {
+            imagenSrc: 'assets/img/piña.webp', name: 'Piña'
+        },
+        {
+            imagenSrc: 'assets/img/pera.webp', name: 'Pera'
+        },
+        {
+            imagenSrc: 'assets/img/limon.webp', name: 'Limón'
+        },
 
 
-];
+    ];
 
-// lo arrojamos en el container de los ingredientes
+    // lo arrojamos en el container de los ingredientes
 
-const containerIngredientes = document.getElementById('grid-ingredientes-container');
+    const containerIngredientes = document.getElementById('grid-ingredientes-container');
 
-// creamos una iteracion para cada ingrediente en el array
-ingredientes.forEach(ingrediente =>{
-    // creamos la imagen
-    const img = document.createElement('img');
-    img.src = ingrediente.imagenSrc;
-    img.alt = ingrediente.name;
+    // creamos una iteracion para cada ingrediente en el array
+    ingredientes.forEach(ingrediente => {
+        // creamos la imagen
+        const img = document.createElement('img');
+        img.src = ingrediente.imagenSrc;
+        img.alt = ingrediente.name;
 
-    img.classList.add('ingrediente-img');
+        img.classList.add('ingrediente-img');
 
-    // ahora agregamos la imagen al contenedor
-    containerIngredientes.appendChild(img);
+        // ahora agregamos la imagen al contenedor
+        containerIngredientes.appendChild(img);
 
-    img.addEventListener('click', () =>{
-        seleccionIngredientes(ingrediente.name, img)
+        img.addEventListener('click', () => {
+            seleccionIngredientes(ingrediente.name, img)
+        })
     })
-})
 
 });
 
@@ -145,20 +145,37 @@ let ingredientesSeleccionados = [];
 
 function seleccionIngredientes(nombreIngrediente, imagenIngrediente) {
     const index = ingredientesSeleccionados.indexOf(nombreIngrediente);
-
+    const aviso = document.getElementById('aviso-ingredientes');
+    const btnVerRecetas = document.getElementById('recetas');
     if (index === -1) {
-        
-        if (ingredientesSeleccionados.length <5) {
+
+        if (ingredientesSeleccionados.length < 5) {
             ingredientesSeleccionados.push(nombreIngrediente);
             imagenIngrediente.classList.add('seleccionado');
-        }else{
-            alert('Ya has seleccionado más de 5 ingredientes');
+            aviso.classList.add('oculto');
+
+        } else {
+            aviso.classList.remove('oculto');
+            setTimeout(() => {
+                aviso.classList.add('oculto');
+            }, 3000);
+
+
         }
-        
-    }else{
+
+    } else {
         ingredientesSeleccionados.splice(index, 1);
         imagenIngrediente.classList.remove('seleccionado');
+        aviso.classList.add('oculto');
     }
-    
+
+    if (ingredientesSeleccionados.length >= 1) {
+        btnVerRecetas.classList.remove('disabled');
+
+    } else {
+        btnVerRecetas.classList.add('disabled')
+    }
+
+
     console.log(ingredientesSeleccionados);
 }

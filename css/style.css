@@ -1,11 +1,15 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    background-color: #FEF9E1;
-
-
-
 }
+
+body{
+    
+    background-color: #FEF9E1;
+}
+
+
+
 
 
 
@@ -95,8 +99,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
-    margin-bottom: 10rem;
-    margin: 0.5rem;
+    margin: 2rem 0.5rem 8rem 0.5rem;
+ 
 }
 
 .grid-ingredientes img {
@@ -113,7 +117,7 @@
     transform: scale(1.06);
 }
 
-.grid-ingredientes img.seleccinada{
+.grid-ingredientes img.seleccionado{
     border: 3px solid #C14600;
     filter:drop-shadow(0 0 5px rgba(193, 70, 0, 0.7)); 
 }
@@ -158,4 +162,26 @@
 .seleccionado{
     background-color: #FF9D23;
     
+}
+
+.oculto {
+    display:none;
+    background-color: rgb(14, 12, 12);
+    font-size: 120px;
+}
+
+.aviso{
+    position: fixed;
+    text-align: center;
+    background-color: #C14600;
+    color: white;
+    bottom: 120px;
+    left:50%;
+    z-index: 100;  
+    transform: translateX(-50%);
+    transition: opacity 0.5s ease;
+    font-family: "Cairo", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  
 }
