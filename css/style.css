@@ -96,6 +96,7 @@
     grid-template-rows: auto;
     grid-gap: 10px;
     margin-bottom: 10rem;
+    margin: 0.5rem;
 }
 
 .grid-ingredientes img {
@@ -152,4 +153,9 @@
 .disabled{
     opacity: 0.6;
     cursor: not-allowed;
+}
+
+.seleccionado{
+    background-color: #FF9D23;
+    
 }
