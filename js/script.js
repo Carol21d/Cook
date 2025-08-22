@@ -131,6 +131,34 @@ ingredientes.forEach(ingrediente =>{
 
     // ahora agregamos la imagen al contenedor
     containerIngredientes.appendChild(img);
+
+    img.addEventListener('click', () =>{
+        seleccionIngredientes(ingrediente.name, img)
+    })
 })
 
 });
+
+
+// Eleccion de ingredientes por el usuario
+let ingredientesSeleccionados = [];
+
+function seleccionIngredientes(nombreIngrediente, imagenIngrediente) {
+    const index = ingredientesSeleccionados.indexOf(nombreIngrediente);
+
+    if (index === -1) {
+        
+        if (ingredientesSeleccionados.length <5) {
+            ingredientesSeleccionados.push(nombreIngrediente);
+            imagenIngrediente.classList.add('seleccionado');
+        }else{
+            alert('Ya has seleccionado más de 5 ingredientes');
+        }
+        
+    }else{
+        ingredientesSeleccionados.splice(index, 1);
+        imagenIngrediente.classList.remove('seleccionado');
+    }
+    
+    console.log(ingredientesSeleccionados);
+}

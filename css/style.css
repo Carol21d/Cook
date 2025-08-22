@@ -95,6 +95,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
+    margin-bottom: 10rem;
 }
 
 .grid-ingredientes img {
@@ -146,4 +147,9 @@
 
 .nav-enlace{
     background: none;
+}
+
+.disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
 }
